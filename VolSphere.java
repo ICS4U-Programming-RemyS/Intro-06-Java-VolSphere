@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
 * This program will calculate the volume of a sphere.
 *
@@ -5,8 +7,6 @@
 * @version 1.0
 * @since   2025-February-10
 */
-
-import java.util.Scanner;
 
 final class VolSphere {
 
@@ -27,7 +27,7 @@ final class VolSphere {
      *
      * @param args Unused.
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         // Ask user to enter the radius
         System.out.println("Please enter the radius of the sphere in cm: ");
 
